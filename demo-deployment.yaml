@@ -13,10 +13,18 @@ spec:
         app: demo
     spec:
       containers:
-        - name: demoservice
-          image: <your_docker_hub_udername>/demoservice
+        - name: constellation-manager
+          image: dimuthucs/cm:<<build_number>>
           ports:
             - containerPort: 8080
+       - name: health-monitor
+          image: dimuthucs/hm:<<build_number>>
+          ports:
+            - containerPort: 8081
+       - name: orbit-controller
+         image: dimuthucs/oc:<<build_number>>
+         ports:
+           - containerPort: 8082            
 
 # service type loadbalancer
 ---
