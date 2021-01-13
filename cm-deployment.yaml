@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: constellation-manager
-          image: dimuthucs/cm:<<build_number>>
+          image: dimuthucs/devcm:<<build_number>>
           ports:
             - containerPort: 8080
          
