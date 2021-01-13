@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: demoservice
-          image: dimuthucs/demoservice:<<build_number>>
+          image: <your_docker_hub_udername>/demoservice
           ports:
             - containerPort: 8080
 
