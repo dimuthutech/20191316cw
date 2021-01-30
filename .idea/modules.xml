@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/constellation-manager/constellation-manager.iml" filepath="$PROJECT_DIR$/constellation-manager/constellation-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/constellation-manager/spaceX.iml" filepath="$PROJECT_DIR$/constellation-manager/spaceX.iml" />
     </modules>
   </component>
 </project>
