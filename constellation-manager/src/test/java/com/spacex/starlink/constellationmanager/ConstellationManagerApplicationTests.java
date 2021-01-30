@@ -8,6 +8,7 @@ class ConstellationManagerApplicationTests {
 
 	@Test
 	void contextLoads() {
+
 	}
 
 }
